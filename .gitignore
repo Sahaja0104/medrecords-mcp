@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.idea/
+.vscode/
+node_modules/
+# Never commit real reports. Synthetic PDFs under samples/ are allowed.
+*.pdf
+!samples/**/*.pdf
